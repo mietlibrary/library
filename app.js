@@ -53,6 +53,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add a click event listener to the button
     button.addEventListener('click', function() {
         // Redirect to another website
-        window.location.href = 'http://127.0.0.1:5500/proj/index.html';
+        window.location.href = 'https://mietlibrary.github.io/project/';
     });
 });
