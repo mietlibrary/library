@@ -194,3 +194,29 @@ h1 {
     margin-bottom: 5px;
     color: #333;
 }
+
+.container {
+    width: 90%;
+    max-width: 400px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 20px;
+    }
+    .search-box input,
+    .search-box select {
+        width: 100%;
+    }
+}
+
+.search-box input,
+.search-box select {
+    width: calc(100% - 20px);
+    /* Already responsive */
+}
+
+.search-box button {
+    width: 100%;
+}
