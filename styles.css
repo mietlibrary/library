@@ -39,7 +39,7 @@ body {
 /* Container styling with animation */
 
 .container {
-    background-color: rgba(255, 255, 255, 0.02); /* Semi-transparent white */
+    background-color: rgba(255, 255, 255, 0.00); /* Semi-transparent white */
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
@@ -51,7 +51,7 @@ body {
     backdrop-filter: blur(10px); /* Apply blur effect */
 }
 .container {
-    background-color: rgba(255, 255, 255, 0.02); /* Fallback for browsers that don't support backdrop-filter */
+    background-color: rgba(255, 255, 255, 0.00); /* Fallback for browsers that don't support backdrop-filter */
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
