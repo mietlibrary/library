@@ -39,7 +39,7 @@ body {
 /* Container styling with animation */
 
 .container {
-    background-color: #ffffff;
+    background-color: ransparent;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
