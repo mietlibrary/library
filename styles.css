@@ -237,3 +237,10 @@ h1 {
 .search-box button {
     width: 100%;
 }
+.logo {
+    display: block;
+    margin: 20px auto; /* Centers the logo horizontally */
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintains the aspect ratio */
+}
+
